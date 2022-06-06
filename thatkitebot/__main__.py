@@ -45,7 +45,7 @@ intents = discord.Intents.all()
 if not Path(os.path.join(datadir, "init_settings.json")).exists():
     print("No init_settings.json file found. Creating one now.")
     settings_dict_empty = {
-        "discord token": "",
+        "discord token": "ODg4ODAzODM0Mzc2MzY0MDcz.GrwMhi.3oNcmuBVk0rXLKvnBTdz4RCTbTefZkJ1tznu5U",
         "tenor api key": "",
         "prefix": "+",
     }
